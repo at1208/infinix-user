@@ -1,5 +1,10 @@
 import React from 'react';
 import './home.css';
+import { Input, Button } from 'antd';
+import 'antd/dist/antd.css';
+import User from './user';
+import Hospital from './hospital'
+
 
 const Home =  () => {
   return <div>
@@ -9,11 +14,11 @@ const Home =  () => {
 <div className='row col justify-content-center'>
 
     <div className=' shadow col-md-5 left-container'>
-     <h1 className='user text-center'>Register as a User</h1>
+  <User />
      </div>
 
   <div className=' shadow col-md-5 right-container'>
-     <h1 className='user text-center'>Register as a Hospital</h1>
+   <Hospital />
   </div>
 
   </div>
