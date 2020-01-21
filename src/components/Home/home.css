@@ -1,0 +1,21 @@
+.heading{
+  font-weight: lighter;
+}
+.left-container{
+  background: #cb2d3e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #ef473a, #cb2d3e);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #ef473a, #cb2d3e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: 2px solid grey;
+  height: 400px;
+  margin: 2px;
+}
+
+.right-container{
+  background-color: white;
+    border: 2px solid grey;
+  height: 400px;
+}
+.user{
+  font-weight: lighter;
+  padding: 20px;
+}
