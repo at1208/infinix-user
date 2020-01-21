@@ -21,7 +21,7 @@ class Hospital extends Component {
 </div>
 
 <div className='text-center submit-button'>
-<Button>Submit</Button>
+<Button className='btn btn-info'>Submit</Button>
 </div>
     </>
   }
