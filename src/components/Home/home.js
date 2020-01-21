@@ -10,7 +10,7 @@ const Home =  () => {
   return <div>
   <h1 className='container text-center  heading'>Welcome to naughtySharma.com</h1>
 
-  <div className='container '>
+  <div className='container  '>
 <div className='row col justify-content-center'>
 
     <div className=' shadow col-md-5 left-container'>
