@@ -3,18 +3,21 @@
   padding: 20px;
 }
 .left-container{
-  background: #cb2d3e;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #ef473a, #cb2d3e);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #ef473a, #cb2d3e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  /* border: 2px solid grey; */
-  height: 400px;
-  margin: 10px;
+  /* background-color: yellow; */
+
+  /* border-bottom: 1px solid grey; */
+ /* height: auto; */
+ margin-right: 10px;
+ height: 0px;
 }
 
 .right-container{
-  background-color: white;
+  background: #cb2d3e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ef473a, #cb2d3e);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ef473a, #cb2d3e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     /* border: 2px solid grey; */
-  height: 400px;
+ /* height: auto; */
 }
 .user{
   font-weight: lighter;
@@ -25,8 +28,9 @@
 }
 .submit-button{
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .btn{
-  background-color: yellow;
+  background-color: white;
 }

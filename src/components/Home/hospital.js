@@ -3,10 +3,10 @@ import { Input, Button } from 'antd';
 import 'antd/dist/antd.css';
 
 class Hospital extends Component {
+
   render(){
     return <>
-    <h1 className='user text-center'>Register as a Hospital</h1>
-      <div className='input-element'>
+       <div className='input-element'>
        <Input placeholder="Enter hospital Name" />
     </div>
     <div className='input-element'>

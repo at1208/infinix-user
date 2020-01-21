@@ -16,8 +16,8 @@ class Auth extends Component{
     return <div className='a1 text-center'>
 
       <div className='container col-md-4 shadow a2'>
-            <h1 className='a3'>fastAmbulance.com</h1>
-            <h4 className='a8 '>Please Login</h4 >
+            <h1 className='a3'>naughtySharma.com</h1>
+            <h4 className='a8 '>Please Login to continue</h4 >
 
 
 

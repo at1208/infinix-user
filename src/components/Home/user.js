@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { Input, Button } from 'antd';
+import { Link } from 'react-router-dom'
 import 'antd/dist/antd.css';
 
 class User extends Component {
   render(){
     return <>
-    <h1 className='user text-center'>Register as a User</h1>
-      <div className='input-element'>
+       <div className='input-element'>
        <Input placeholder="Enter Name" />
     </div>
     <div className='input-element'>
@@ -21,7 +21,7 @@ class User extends Component {
 </div>
 
 <div className='text-center submit-button'>
-<Button>Submit</Button>
+<Link to='/auth'><Button>Submit</Button></Link>
 </div>
     </>
   }
